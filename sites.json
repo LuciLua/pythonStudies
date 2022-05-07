@@ -1,0 +1,30 @@
+[
+    {
+        "name": "twitter",
+        "check_uri": "https://twitter.com/{account}",
+        "account_existence_code": "200",
+        "account_existence_string": "Twitter Account",
+        "account_missing_code": "404",
+        "account_missing_string": "Ooops, this content does not exist.",
+        "known_accounts": [
+            "L4DEV",
+            "lucilua81"
+        ],
+        "category": "social",
+        "valid": true
+    },
+    {
+        "name": "AnimePlanet",
+        "check_uri": "https://www.youtube.com/c/{account}",
+        "account_existence_code": "200",
+        "account_existence_string": "Joined",
+        "account_missing_string": "Channels.",
+        "account_missing_code": "302",
+        "known_accounts": [
+            "L4DEV",
+            "lucilua81"
+        ],
+        "category": "video",
+        "valid": true
+    }
+]
