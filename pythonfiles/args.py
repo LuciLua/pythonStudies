@@ -1,7 +1,5 @@
 # import requests
 import argparse
-from asyncio.windows_events import NULL
-from sys import prefix
 from typing import Optional
 # import json
 import rich
